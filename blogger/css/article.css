@@ -1,0 +1,228 @@
+.articlepage {
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  border:solid 1px #e5e5e5;
+  margin:0 35px 0 0;
+  padding:35px 50px;
+  background-color:#fff;
+}
+.articlepage dl,
+.articlepage dt,
+.articlepage dd,
+.articlepage ul,
+.articlepage li,
+.articlepage p {
+  padding:0 !important;
+  margin:0 !important;
+}
+.articlepage p {
+  line-height:1.8em;
+  margin:0 0 1.3em !important;
+}
+.articlepage a {
+  color:#007BC3;
+}
+.articlepage a:hover img {
+  filter:alpha(opacity=60);
+  -moz-opacity: 0.6;
+  opacity: 0.6;
+}
+
+.articlepage h1,
+.articlepage h2,
+.articlepage h3,
+.articlepage h4 {
+   font-family: 'ltg';
+  letter-spacing:0em;
+  color:#666;
+}
+.articlepage h1 {
+  font-size:200%; /* 32px */
+}
+.articlepage h2 {
+  font-size:175%; /* 28px */
+}
+.articlepage h3 {
+  font-size:150%; /* 24px */
+}
+.articlepage h4 {
+  font-size:125%; /* 20px */
+}
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  .articlepage h1 {
+    background: #EEE url(data:image/gif;base64,iVBORw0KGgoAAAANSUhEUgAAAAQAAAAECAIAAAAmkwkpAAAAHklEQVQImWNkYGBgYGD4//8/A5wF5SBYyAr+//8PAPOCFO0Q2zq7AAAAAElFTkSuQmCC) repeat;
+    text-shadow: 3px -3px #333, 2px -2px white;
+    font-weight: bold;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  }
+}
+
+.articlepage li {
+  list-style:none;
+}
+
+.articlepage .date-header {
+  display:none;
+}
+
+.post-footer {
+  position:relative;
+  min-height:33px;
+  margin: 20px 0 0;
+  padding: 5px 10px;
+  background-color:#eee;
+  font-size:75%; /*12px */
+}
+.post-footer .ninja_onebutton {
+  position:absolute;
+  top:10px;
+  right:10px;
+}
+.comments {
+  padding:15px;
+  background-color:#fcfcfc;
+  border:solid 1px #e5e5e5;
+}
+.comments h4 {
+  font-size:14px;
+  font-weight:bold;
+}
+
+.post-feeds {
+  display:none;
+}
+
+
+/* layout */
+.articlepage .entry-content img{
+  width:100%;
+}
+.articlepage .imgL ul:first-child,
+.articlepage .imgM ul:first-child,
+.articlepage .imgS ul:first-child,
+.articlepage .imgXS ul:first-child {
+  text-align:center;
+  margin:0 0 1.3em !important;
+}
+.articlepage .imgL ul:first-child li,
+.articlepage .imgM ul:first-child li,
+.articlepage .imgS ul:first-child li,
+.articlepage .imgXS ul:first-child li {
+  display:inline-block;
+}
+.articlepage .imgL ul.floatL,
+.articlepage .imgL ul.floatR,
+.articlepage .imgL li {
+  width:18.75em;
+}
+.articlepage .imgM ul.floatL,
+.articlepage .imgM ul.floatR,
+.articlepage .imgM li {
+  width:15em;
+}
+.articlepage .imgS ul.floatL,
+.articlepage .imgS ul.floatR,
+.articlepage .imgS li {
+  width:12.5em;
+}
+.articlepage .imgXS li {
+  width:9em;
+}
+.articlepage ul:first-child.floatL{
+  margin:0 1.3em 0.5em 0 !important;
+}
+.articlepage ul:first-child.floatR{
+  margin:0 0 0.5em 1.3em !important;
+}
+
+.articlepage .playList {
+  background-color:#222;
+  color:#eee;
+  font-size:88%; /*14px */
+  padding:1.5em !important;
+  counter-reset: my-badass-counter;
+  margin:0 0 1.14em !important;
+}
+.playList dt:before {
+        content: counter(my-badass-counter);
+        counter-increment: my-badass-counter;
+        color:#14bafa;
+        margin:0 0.5em 0 0;
+        font-weight:bold;
+        font-family: 'mplus-1p-regular';
+}
+.playList dt {
+  font-weight:normal;
+  border-bottom:solid 1px #333;
+  padding:0 0 0 2em !important;
+  text-indent:-2em;
+}
+.playList dt span {
+  font-size:79%; /* 11px */
+  margin:0 0 0 0.5em;
+}
+.playList dd {
+  text-align:right;
+  color:#2c7c9b;
+  font-size:72%; /* 10px */
+  margin:0 0 1.5em !important;
+}
+.playList dd:last-child {
+  margin:0 !important;
+}
+.amazonBox,
+.mapBox {
+  margin:35px 0 0;
+  padding:15px;
+  background-color:#f7fbfc;
+  border:solid 1px #e1f0f4;
+  font-size:75%; /*12px */
+}
+.amazonBox .amazlet-box {
+  border-bottom:solid 1px #e1f0f4;
+  margin:0 0 15px !important;
+  padding:0 0 10px;
+}
+.amazonBox .amazlet-box:last-child {
+  border-bottom:none;
+  margin:0 !important;
+  padding:0;
+}
+.mapBox > :first-child {
+  float:left;
+}
+.mapBox > :last-child {
+  float:right;
+  width:274px;
+}
+.mapBox dt {
+  font-weight:normal;
+  font-family: 'ltg';
+  font-size:117%; /* 14px */
+}
+.mapBox dt a,
+.mapBox dt a:link {
+  color:#2288bb;
+}
+.mapBox dd {
+  margin:0.3em 0 1.5em 0 !important;
+}
+.mapBox .mapLink {
+  font-size:84%; /* 10px */
+}
+.mapBox + .amazonBox {
+  margin-top:20px;
+}
+
+/* clearfix */
+.articlepage .imgL:after,
+.articlepage .imgM:after,
+.articlepage .imgS:after,
+.mapBox:after,
+.articlepage .col2:after {
+  content: "";
+  clear: both;
+  display: block;
+}
