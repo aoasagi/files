@@ -1,0 +1,100 @@
+.main-inner .columns {
+  margin:0 0 0 -7px;
+  padding-right: 317px;
+}
+.main-inner .column-right-outer {
+  margin-right: -317px;
+  padding-left:7px;
+}
+.blog-feeds {
+  display:none;
+}
+.mainList:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+
+ .cardWrap {
+  /* width:236px; */
+  position:relative;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px;
+  display:inline-block;
+  margin:0 7px 14px;
+}
+.cardWrap ul,
+.cardWrap li {
+  padding:0;
+  list-style:none;
+  line-height:0 !important;
+}
+.cardWrap .cImg img {
+  width:100%;
+  z-index:10;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px
+}
+.cardWrap .cLink a {
+  position:absolute;
+  left:0;
+  top:0;
+  width:100%;
+  height:100%;
+  display:block;
+  z-index:30;
+  -webkit-border-radius:10px;
+  -moz-border-radius:10px;
+  border-radius:10px
+}
+.cardWrap .cLink a:hover {
+  background: #047edb; /* Old browsers */
+  background: -moz-linear-gradient(top,  #047edb 0%, #000000 100%, #7db9e8 100%); /* FF3.6+ */
+  background: -webkit-gradient(linear, left top, left bottom, color-stop(0%,#047edb), color-stop(100%,#000000), color-stop(100%,#7db9e8)); /* Chrome,Safari4+ */
+  background: -webkit-linear-gradient(top,  #047edb 0%,#000000 100%,#7db9e8 100%); /* Chrome10+,Safari5.1+ */
+  background: -o-linear-gradient(top,  #047edb 0%,#000000 100%,#7db9e8 100%); /* Opera 11.10+ */
+  background: -ms-linear-gradient(top,  #047edb 0%,#000000 100%,#7db9e8 100%); /* IE10+ */
+  background: linear-gradient(to bottom,  #047edb 0%,#000000 100%,#7db9e8 100%); /* W3C */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#047edb', endColorstr='#7db9e8',GradientType=0 ); /* IE6-9 */
+  filter:alpha(opacity=50);
+  -moz-opacity: 0.5;
+  opacity: 0.5;
+}
+.cardWrap .cDetails {
+  position:absolute;
+  left:0;
+  bottom:0;
+  width:100%;
+  z-index:20;
+  margin:0;
+  color:#666;
+  font-size:75%; /*12px */
+}
+.cardWrap .cDetails a:link,
+.cardWrap .cDetails a:visited {
+  color:#fff;
+}
+
+.cardWrap .cDetails dt {
+  padding:5px;
+  margin:0 7px;
+  font-weight:normal;
+  -webkit-border-radius:5px;
+  -moz-border-radius:5px;
+  border-radius:5px;
+  background-color:#000;
+  filter:alpha(opacity=80);
+  -moz-opacity: 0.8;
+  opacity: 0.8;
+}
+.cardWrap .cDetails dd {
+  margin:3px 7px;
+  text-align:right;
+  color:#00BFFF;
+  font-size:84%; /* 10px */
+  text-shadow: 1px 1px 0px #000033;
+}
+
+
