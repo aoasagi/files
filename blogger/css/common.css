@@ -12,18 +12,18 @@ body {
 
 @font-face {
   font-family: 'ltg';
-  src: url('https://googledrive.com/host/0B0sFz3yMT9SHazRvMTgyU2I1OWc/');
+  src: url('http://aoasagi.github.io/fonts/ltg.otf');
 }
 @font-face {
   font-family: 'ltgcd';
-  src: url('https://googledrive.com/host/0B0sFz3yMT9SHOFhPWXpYaURSQ2M/');
+  src: url('http://aoasagi.github.io/fonts/ltg.otf');
 }
 @font-face {
   font-family: 'octicons';
-  src: url('https://googledrive.com/host/0B0sFz3yMT9SHN2Z1ZnIzSTF6alU/?#iefix') format('embedded-opentype'),
-       url('https://googledrive.com/host/0B0sFz3yMT9SHZzZwbTVkVmVBU1U/') format('woff'),
-       url('https://googledrive.com/host/0B0sFz3yMT9SHdXNLMGpUZkg1Vlk/') format('truetype'),
-       url('https://googledrive.com/host/0B0sFz3yMT9SHQmRrWTVUSEJ0NVk/#octicons') format('svg');
+  src: url('http://aoasagi.github.io/fonts/octicons.eot?#iefix') format('embedded-opentype'),
+       url('http://aoasagi.github.io/fonts/octicons.woff') format('woff'),
+       url('http://aoasagi.github.io/fonts/octicons.ttf') format('truetype'),
+       url('http://aoasagi.github.io/fonts/octicons.svg') format('svg');
   font-weight: normal;
   font-style: normal;
 }
